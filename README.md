@@ -2,10 +2,10 @@
 Profoundly dumb placeholder text placed into various CSS Grid layouts. 
 
 # What This Is
-This is a randomized quote website to serve up the bonkers stuff my co-worker says. The website uses React and a smidge of other scripts to load the content and layouts.
+Getting tired of the same old lorem ipsum? Try something a little more dumb. This is a collection of randomized placeholder text served up in a variety of attractive CSS Grid layouts. Headlines, body copy, pullquotes, this should have you covered for just about everything. 
 
 # Plugins & Tech
-- Scripting: Reach & vanilla JavaScript
-- CSS: Mostly custom, uses Bourbon Neat for the responsive structure, also Normalize for general misc.
-- Quotes: 100% crazy talk from the guy at work. Seriously can't make this stuff up.
-- Build process: I'm using PrePros for the build process. Small site, so no need to Gulp this.
+- Scripting: React & vanilla JavaScript
+- CSS: Grid mostly
+- Lorem Ipsum source: 100% crazy talk from the guy at work. Seriously can't make this stuff up.
+- Build process: PrePros (built-in Babel, SASS, etc.) for the build process.
