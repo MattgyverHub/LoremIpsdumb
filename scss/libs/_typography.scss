@@ -31,6 +31,12 @@ p {
   @include dosis(400, $primary-color, 1.2rem, 1.6rem);
 }
 
+nav {
+  @include dosis(800, $primary-color, var(--text-size-nav), var(--line-height-nav));
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 h2, .h2 {
   @include dosis(800, $primary-color, 1.6rem, 2.4rem);
 }
@@ -46,7 +52,7 @@ a {
   }
 
 	&:active, &:focus {
-      outline: none;
-      background-color: transparent;
+    outline: none;
+    background-color: transparent;
   }
 }
